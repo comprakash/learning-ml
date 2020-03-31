@@ -1,11 +1,1 @@
-{
-    "assignment": 36,
-    "modifiable_files": [
-        "assignment.ipynb"
-    ],
-    "student_tests": [
-        "test_students.py"
-    ],
-    "timeout": 30,
-    "total_points": 150
-}
+{"assignment": 36, "modifiable_files": ["assignment.ipynb"], "student_tests": ["test_students.py"], "timeout": 30, "total_points": 150, "email": "om.prakash@sony.com", "submission_pass": "e0utfxpv3nf1"}

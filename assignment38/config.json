@@ -1,0 +1,11 @@
+{
+    "assignment": 38,
+    "modifiable_files": [
+        "assignment.ipynb"
+    ],
+    "student_tests": [
+        "test_students.py"
+    ],
+    "timeout": 3030,
+    "total_points": 120
+}
