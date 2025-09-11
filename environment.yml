@@ -1,0 +1,16 @@
+name: learning-ml
+channels:
+  - defaults
+dependencies:
+  - ipykernel
+  - jupyter
+  - matplotlib
+  - numpy
+  - openpyxl
+  - pandas
+  - plotly
+  - PyTorch
+  - scikit-learn
+  - seaborn
+  - tqdm
+  - ydata-profiling
