@@ -136,8 +136,12 @@ def run_softmax_on_MNIST_mod3(temp_parameter=1):
 
     See run_softmax_on_MNIST for more info.
     """
-    # YOUR CODE HERE
-    raise NotImplementedError
+    x_train, y_train, x_test, y_test = get_MNIST_data()
+    y_train_mod3, y_test_mod3 = update_y(y_train, y_test)
+    theta, cost_function_history = softmax_regression(x_train, y_train_mod3, temp_parameter, alpha=0.3,
+                                                      lambda_factor=1.0e-4, k=10, num_iterations=150)
+    test_error = compute_test_error(x_test, y_test_mod3, theta, temp_parameter)
+    return test_error
 
 
 # TODO: Run run_softmax_on_MNIST_mod3(), report the error rate
