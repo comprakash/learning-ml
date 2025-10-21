@@ -41,7 +41,9 @@ def run_linear_regression_on_MNIST(lambda_factor=1):
 
 
 # Don't run this until the relevant functions in linear_regression.py have been fully implemented.
-print('Linear Regression test_error =', run_linear_regression_on_MNIST(lambda_factor=1))
+print('Linear Regression lambda = 1, test_error =', run_linear_regression_on_MNIST(lambda_factor=1))
+print('Linear Regression lambda = 0.1, test_error =', run_linear_regression_on_MNIST(lambda_factor=1))
+print('Linear Regression lambda = 0.01, test_error =', run_linear_regression_on_MNIST(lambda_factor=1))
 
 
 #######################################################################
